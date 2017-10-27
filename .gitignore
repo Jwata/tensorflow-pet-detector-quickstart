@@ -1,0 +1,15 @@
+data/images
+data/images.tar.gz
+data/annotations
+data/annotations.tar.gz
+data/train
+data/frozen_inference_graph.pb
+data/model.ckpt.data-00000-of-00001
+data/model.ckpt.index
+data/model.ckpt.meta
+data/pet_label_map.pbtxt
+data/pet_train.record
+data/pet_val.record
+!data/train/.gitkeep
+data/eval
+!data/eval/.gitkeep
