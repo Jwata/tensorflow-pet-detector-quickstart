@@ -1,4 +1,4 @@
-This is a quick start sample for [the pet detector] (https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_pets.md) of [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection).  
+This is a quick start sample for [the pet detector](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_pets.md) of [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection).  
 You will be able to run the training and evaluation on your local machinle in a minute.
 
 Creating TF record
@@ -35,5 +35,5 @@ Running Tensorboard
 docker run -d -v `pwd`/data:/data -p 6006:6006 --name tensorboard jwata/tensorflow-object-detection \
   tensorboard --logdir=/data
 
-# open localhost:6006 with your browser
+open http://localhost:6006
 ```
