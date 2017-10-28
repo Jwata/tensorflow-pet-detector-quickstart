@@ -2,7 +2,7 @@ This is a quick start sample for [the pet detector] (https://github.com/tensorfl
 You will be able to run the training and evaluation on your local machinle in a minute.
 
 Creating TF record
-```sh
+```
 ./create_pet_tf_record.sh
 ```
 
