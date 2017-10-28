@@ -2,11 +2,11 @@ This is a quick start sample for [the pet detector] (https://github.com/tensorfl
 You will be able to run the training and evaluation on your local machinle in a minute.
 
 Creating TF record
-```
+```sh
 ./create_pet_tf_record.sh
 ```
 
-Running treining
+Running training
 ```
 docker run -d -v `pwd`/data:/data --name pet_detector_train jwata/tensorflow-object-detection \
   python object_detection/train.py \
@@ -29,4 +29,6 @@ Running Tensorboard
 ```
 docker run -d -v `pwd`/data:/data -p 6006:6006 --name tensorboard jwata/tensorflow-object-detection \
   tensorboard --logdir=/data
+
+# open localhost:6006 with your browser
 ```
