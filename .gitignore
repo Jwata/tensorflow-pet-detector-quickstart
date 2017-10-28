@@ -1,3 +1,7 @@
+data/pet_val.record
+!data/train/.gitkeep
+data/eval
+!data/eval/.gitkeep
 data/images
 data/images.tar.gz
 data/annotations
@@ -8,7 +12,5 @@ data/model.ckpt.data-00000-of-00001
 data/model.ckpt.index
 data/model.ckpt.meta
 data/pet_train.record
-data/pet_val.record
-!data/train/.gitkeep
-data/eval
-!data/eval/.gitkeep
+data/faster_rcnn_resnet101_coco_11_06_2017
+data/faster_rcnn_resnet101_coco_11_06_2017.tar.gz

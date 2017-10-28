@@ -6,6 +6,11 @@ Creating TF record
 ./create_pet_tf_record.sh
 ```
 
+Downlodaing pretrained model
+```
+./download_pretrained_model.sh
+```
+
 Running training
 ```
 docker run -d -v `pwd`/data:/data --name pet_detector_train jwata/tensorflow-object-detection \
